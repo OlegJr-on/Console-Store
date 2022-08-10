@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Visual Studio and other\\Console Store\\ConsoleStore\\ConsoleStore\\Store.csproj",
-      "projectName": "Store",
-      "projectPath": "C:\\Visual Studio and other\\Console Store\\ConsoleStore\\ConsoleStore\\Store.csproj",
+      "projectUniqueName": "C:\\Visual Studio and other\\Console Store\\ConsoleStore\\DAL\\DAL.csproj",
+      "projectName": "DAL",
+      "projectPath": "C:\\Visual Studio and other\\Console Store\\ConsoleStore\\DAL\\DAL.csproj",
       "packagesPath": "C:\\Users\\1-Б\\.nuget\\packages\\",
-      "outputPath": "C:\\Visual Studio and other\\Console Store\\ConsoleStore\\ConsoleStore\\obj\\",
+      "outputPath": "C:\\Visual Studio and other\\Console Store\\ConsoleStore\\DAL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\1-Б\\AppData\\Roaming\\NuGet\\NuGet.Config",

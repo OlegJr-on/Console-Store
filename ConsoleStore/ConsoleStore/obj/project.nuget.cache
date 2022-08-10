@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "e5uWK4lKWIsbyqur6euj6P7Pl6RR92xwSgWsymKb3yM9iYqxR4W9RSPxb1ARyOJh2Mi/IHBp5RpJZS0KbZFpkQ==",
+  "dgSpecHash": "HyXjspWy+sfnqEnwBXgnHIQ826Ww2z+di0mZn0l2TCOfYQXZxUxHEANjuWBJ1v5cLI+oAYUJtUkjz+aO91Hv8w==",
   "success": true,
-  "projectFilePath": "C:\\Visual Studio and other\\Console Store\\ConsoleStore\\ConsoleStore\\ConsoleStore.csproj",
+  "projectFilePath": "C:\\Visual Studio and other\\Console Store\\ConsoleStore\\ConsoleStore\\Store.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
