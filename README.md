@@ -6,7 +6,9 @@ A technic store in which you can log in in three roles: guest, administrator, re
 ✔ Role "Guest":
 
 ⇛ search for goods by name;
+
 ⇛ user account registration;
+
 ⇛ admission to the online store with an account.
 
 ✔ Role "Registered user"
