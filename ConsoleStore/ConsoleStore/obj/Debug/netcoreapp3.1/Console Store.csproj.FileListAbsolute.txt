@@ -1,0 +1,19 @@
+C:\Visual Studio and other\Console Store\ConsoleStore\ConsoleStore\bin\Debug\netcoreapp3.1\Console Store.exe
+C:\Visual Studio and other\Console Store\ConsoleStore\ConsoleStore\bin\Debug\netcoreapp3.1\Console Store.deps.json
+C:\Visual Studio and other\Console Store\ConsoleStore\ConsoleStore\bin\Debug\netcoreapp3.1\Console Store.runtimeconfig.json
+C:\Visual Studio and other\Console Store\ConsoleStore\ConsoleStore\bin\Debug\netcoreapp3.1\Console Store.runtimeconfig.dev.json
+C:\Visual Studio and other\Console Store\ConsoleStore\ConsoleStore\bin\Debug\netcoreapp3.1\Console Store.dll
+C:\Visual Studio and other\Console Store\ConsoleStore\ConsoleStore\bin\Debug\netcoreapp3.1\Console Store.pdb
+C:\Visual Studio and other\Console Store\ConsoleStore\ConsoleStore\bin\Debug\netcoreapp3.1\BLL.dll
+C:\Visual Studio and other\Console Store\ConsoleStore\ConsoleStore\bin\Debug\netcoreapp3.1\DAL.dll
+C:\Visual Studio and other\Console Store\ConsoleStore\ConsoleStore\bin\Debug\netcoreapp3.1\BLL.pdb
+C:\Visual Studio and other\Console Store\ConsoleStore\ConsoleStore\bin\Debug\netcoreapp3.1\DAL.pdb
+C:\Visual Studio and other\Console Store\ConsoleStore\ConsoleStore\obj\Debug\netcoreapp3.1\Console Store.csproj.AssemblyReference.cache
+C:\Visual Studio and other\Console Store\ConsoleStore\ConsoleStore\obj\Debug\netcoreapp3.1\Console Store.GeneratedMSBuildEditorConfig.editorconfig
+C:\Visual Studio and other\Console Store\ConsoleStore\ConsoleStore\obj\Debug\netcoreapp3.1\Console Store.AssemblyInfoInputs.cache
+C:\Visual Studio and other\Console Store\ConsoleStore\ConsoleStore\obj\Debug\netcoreapp3.1\Console Store.AssemblyInfo.cs
+C:\Visual Studio and other\Console Store\ConsoleStore\ConsoleStore\obj\Debug\netcoreapp3.1\Console Store.csproj.CoreCompileInputs.cache
+C:\Visual Studio and other\Console Store\ConsoleStore\ConsoleStore\obj\Debug\netcoreapp3.1\Console Store.csproj.CopyComplete
+C:\Visual Studio and other\Console Store\ConsoleStore\ConsoleStore\obj\Debug\netcoreapp3.1\Console Store.dll
+C:\Visual Studio and other\Console Store\ConsoleStore\ConsoleStore\obj\Debug\netcoreapp3.1\Console Store.pdb
+C:\Visual Studio and other\Console Store\ConsoleStore\ConsoleStore\obj\Debug\netcoreapp3.1\Console Store.genruntimeconfig.cache

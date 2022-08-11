@@ -51,9 +51,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Visual Studio and other\\Console Store\\ConsoleStore\\ConsoleStore\\Store.csproj",
-      "projectName": "Store",
-      "projectPath": "C:\\Visual Studio and other\\Console Store\\ConsoleStore\\ConsoleStore\\Store.csproj",
+      "projectUniqueName": "C:\\Visual Studio and other\\Console Store\\ConsoleStore\\ConsoleStore\\Console Store.csproj",
+      "projectName": "Console Store",
+      "projectPath": "C:\\Visual Studio and other\\Console Store\\ConsoleStore\\ConsoleStore\\Console Store.csproj",
       "packagesPath": "C:\\Users\\1-Б\\.nuget\\packages\\",
       "outputPath": "C:\\Visual Studio and other\\Console Store\\ConsoleStore\\ConsoleStore\\obj\\",
       "projectStyle": "PackageReference",

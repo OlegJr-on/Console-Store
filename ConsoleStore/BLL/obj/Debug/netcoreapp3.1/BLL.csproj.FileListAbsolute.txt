@@ -1,0 +1,13 @@
+C:\Visual Studio and other\Console Store\ConsoleStore\BLL\bin\Debug\netcoreapp3.1\BLL.deps.json
+C:\Visual Studio and other\Console Store\ConsoleStore\BLL\bin\Debug\netcoreapp3.1\BLL.dll
+C:\Visual Studio and other\Console Store\ConsoleStore\BLL\bin\Debug\netcoreapp3.1\BLL.pdb
+C:\Visual Studio and other\Console Store\ConsoleStore\BLL\bin\Debug\netcoreapp3.1\DAL.dll
+C:\Visual Studio and other\Console Store\ConsoleStore\BLL\bin\Debug\netcoreapp3.1\DAL.pdb
+C:\Visual Studio and other\Console Store\ConsoleStore\BLL\obj\Debug\netcoreapp3.1\BLL.csproj.AssemblyReference.cache
+C:\Visual Studio and other\Console Store\ConsoleStore\BLL\obj\Debug\netcoreapp3.1\BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Visual Studio and other\Console Store\ConsoleStore\BLL\obj\Debug\netcoreapp3.1\BLL.AssemblyInfoInputs.cache
+C:\Visual Studio and other\Console Store\ConsoleStore\BLL\obj\Debug\netcoreapp3.1\BLL.AssemblyInfo.cs
+C:\Visual Studio and other\Console Store\ConsoleStore\BLL\obj\Debug\netcoreapp3.1\BLL.csproj.CoreCompileInputs.cache
+C:\Visual Studio and other\Console Store\ConsoleStore\BLL\obj\Debug\netcoreapp3.1\BLL.csproj.CopyComplete
+C:\Visual Studio and other\Console Store\ConsoleStore\BLL\obj\Debug\netcoreapp3.1\BLL.dll
+C:\Visual Studio and other\Console Store\ConsoleStore\BLL\obj\Debug\netcoreapp3.1\BLL.pdb

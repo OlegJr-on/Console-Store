@@ -12,3 +12,8 @@ C:\Visual Studio and other\Console Store\ConsoleStore\ConsoleStore\obj\Debug\net
 C:\Visual Studio and other\Console Store\ConsoleStore\ConsoleStore\obj\Debug\netcoreapp3.1\Store.dll
 C:\Visual Studio and other\Console Store\ConsoleStore\ConsoleStore\obj\Debug\netcoreapp3.1\Store.pdb
 C:\Visual Studio and other\Console Store\ConsoleStore\ConsoleStore\obj\Debug\netcoreapp3.1\Store.genruntimeconfig.cache
+C:\Visual Studio and other\Console Store\ConsoleStore\ConsoleStore\bin\Debug\netcoreapp3.1\BLL.dll
+C:\Visual Studio and other\Console Store\ConsoleStore\ConsoleStore\bin\Debug\netcoreapp3.1\DAL.dll
+C:\Visual Studio and other\Console Store\ConsoleStore\ConsoleStore\bin\Debug\netcoreapp3.1\BLL.pdb
+C:\Visual Studio and other\Console Store\ConsoleStore\ConsoleStore\bin\Debug\netcoreapp3.1\DAL.pdb
+C:\Visual Studio and other\Console Store\ConsoleStore\ConsoleStore\obj\Debug\netcoreapp3.1\Store.csproj.CopyComplete

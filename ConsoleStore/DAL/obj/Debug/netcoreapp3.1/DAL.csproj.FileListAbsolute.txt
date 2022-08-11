@@ -1,0 +1,10 @@
+C:\Visual Studio and other\Console Store\ConsoleStore\DAL\bin\Debug\netcoreapp3.1\DAL.deps.json
+C:\Visual Studio and other\Console Store\ConsoleStore\DAL\bin\Debug\netcoreapp3.1\DAL.dll
+C:\Visual Studio and other\Console Store\ConsoleStore\DAL\bin\Debug\netcoreapp3.1\DAL.pdb
+C:\Visual Studio and other\Console Store\ConsoleStore\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.AssemblyReference.cache
+C:\Visual Studio and other\Console Store\ConsoleStore\DAL\obj\Debug\netcoreapp3.1\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Visual Studio and other\Console Store\ConsoleStore\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfoInputs.cache
+C:\Visual Studio and other\Console Store\ConsoleStore\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfo.cs
+C:\Visual Studio and other\Console Store\ConsoleStore\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CoreCompileInputs.cache
+C:\Visual Studio and other\Console Store\ConsoleStore\DAL\obj\Debug\netcoreapp3.1\DAL.dll
+C:\Visual Studio and other\Console Store\ConsoleStore\DAL\obj\Debug\netcoreapp3.1\DAL.pdb
