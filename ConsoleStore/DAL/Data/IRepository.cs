@@ -3,6 +3,13 @@ using System.Collections.Generic;
 
 namespace DAL.Data
 {
+    /// <summary>
+    /// Designed to determine if there is a desired user in the current group
+    /// </summary>
+    public interface IUserIsExist
+    {
+        public bool UserIsExist(string email, string password);
+    }
 
     interface IRepository<T>
     {
