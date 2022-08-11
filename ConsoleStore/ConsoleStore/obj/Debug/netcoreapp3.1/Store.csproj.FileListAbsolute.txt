@@ -1,0 +1,14 @@
+C:\Visual Studio and other\Console Store\ConsoleStore\ConsoleStore\bin\Debug\netcoreapp3.1\Store.exe
+C:\Visual Studio and other\Console Store\ConsoleStore\ConsoleStore\bin\Debug\netcoreapp3.1\Store.deps.json
+C:\Visual Studio and other\Console Store\ConsoleStore\ConsoleStore\bin\Debug\netcoreapp3.1\Store.runtimeconfig.json
+C:\Visual Studio and other\Console Store\ConsoleStore\ConsoleStore\bin\Debug\netcoreapp3.1\Store.runtimeconfig.dev.json
+C:\Visual Studio and other\Console Store\ConsoleStore\ConsoleStore\bin\Debug\netcoreapp3.1\Store.dll
+C:\Visual Studio and other\Console Store\ConsoleStore\ConsoleStore\bin\Debug\netcoreapp3.1\Store.pdb
+C:\Visual Studio and other\Console Store\ConsoleStore\ConsoleStore\obj\Debug\netcoreapp3.1\Store.csproj.AssemblyReference.cache
+C:\Visual Studio and other\Console Store\ConsoleStore\ConsoleStore\obj\Debug\netcoreapp3.1\Store.GeneratedMSBuildEditorConfig.editorconfig
+C:\Visual Studio and other\Console Store\ConsoleStore\ConsoleStore\obj\Debug\netcoreapp3.1\Store.AssemblyInfoInputs.cache
+C:\Visual Studio and other\Console Store\ConsoleStore\ConsoleStore\obj\Debug\netcoreapp3.1\Store.AssemblyInfo.cs
+C:\Visual Studio and other\Console Store\ConsoleStore\ConsoleStore\obj\Debug\netcoreapp3.1\Store.csproj.CoreCompileInputs.cache
+C:\Visual Studio and other\Console Store\ConsoleStore\ConsoleStore\obj\Debug\netcoreapp3.1\Store.dll
+C:\Visual Studio and other\Console Store\ConsoleStore\ConsoleStore\obj\Debug\netcoreapp3.1\Store.pdb
+C:\Visual Studio and other\Console Store\ConsoleStore\ConsoleStore\obj\Debug\netcoreapp3.1\Store.genruntimeconfig.cache
