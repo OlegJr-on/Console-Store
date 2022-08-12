@@ -221,6 +221,55 @@ namespace Store.Tests
         }
     }
 
+    [TestFixture]
+    public class Class_Testing_LoggedUsers
+    {
+        private RegUserRepository Users;
+
+        [SetUp]
+        public void SetUp()
+        {
+            Users = new RegUserRepository();
+        }
+
+        [TestCase("gmail.co", null, false)]
+        [TestCase("petka@gmail.com", "Shot69+#", false)]
+        [TestCase("danse1999@gmail.com", "daN45$$off", true)]
+        public void CheckUserIsExist_EmailAndPassword_ReturnedTrueOrFalse(string email, string password,
+                                                                    bool expected)
+        {
+            //arrange
+            var actual = Users.UserIsExist(email, password);
+
+            //assert
+            Assert.AreEqual(expected, actual);
+        }
+
+        [Test]
+        public void CheckAddNewUser_NewUser_AddedNewUserInList()
+        {
+            //arrange
+            var user = new RegUser(121212, "Name", "Surname", "Loc,ation", "email@gmail.com", "Pass78*(*", "966-333-2022");
+            Users.Add(user);
+
+            //assert
+            Assert.IsTrue(Users.GetUserList().Contains(user));
+        }
+
+        [TestCase("naz999@gmail.com", "xxxFl99@")]
+        [TestCase("fegor77@gmail.com", "Inga$55")]
+        public void CheckSearchUser_WantedUser_ShouldReturnUser(string email, string password)
+        {
+            //arrange
+            var actual = Users.SearchUser(email, password);
+            var expected = Users.GetUserList().Where(x => x.Email == email && x.Password == password)
+                .AsEnumerable().First();
+
+
+            //assert
+            Assert.AreSame(expected, actual, message: $"Message: {expected.GetType()}");
+        }
+    }
 
 
 }
