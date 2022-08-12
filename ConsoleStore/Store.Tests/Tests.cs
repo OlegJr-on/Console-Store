@@ -271,5 +271,86 @@ namespace Store.Tests
         }
     }
 
+    [TestFixture]
+    public class Class_Testing_Administrators
+    {
+        private AdminRepository Admins;
+
+        [SetUp]
+        public void SetUp()
+        {
+            Admins = new AdminRepository();
+        }
+
+        [TestCase("gmail.co", null, false)]
+        [TestCase("petka@gmail.com", "Shot69+#", true)]
+        [TestCase("danse1999@gmail.com", "daN45$$off", false)]
+        public void CheckAdminIsExist_EmailAndPassword_ReturnedTrueOrFalse(string email, string password,
+                                                                    bool expected)
+        {
+            //arrange
+            var actual = Admins.UserIsExist(email, password);
+
+            //assert
+            Assert.AreEqual(expected, actual);
+        }
+    }
+
+    public class AdministratorTests : Class_Testing_User
+    {
+        private static readonly Admin _Admin = new AdminRepository().SearchUser("wick1990j@gmail.com", "JoW77!");
+
+        public override BaseService CreateService()
+            => new AdminService(_Admin);
+
+
+        [Test]
+        public void CheckGetInfoRegistredUsers_Admin_UsersInfoInStr()
+        {
+            //arrange
+            string actual = Service.GetInfoRegistredUsers();
+            var expected = new StringBuilder();
+
+            //act
+            foreach (var item in new RegUserRepository().GetUserList())
+            {
+                expected.Append(item.GetPersonalInfo() + "\n" + new string('-', 120) + "\n");
+            }
+            //assert
+            Assert.AreEqual(expected.ToString(), actual);
+        }
+
+        [Test]
+        public void CheckChangeUsersPersonalInformation_Admin_ChangedValues()
+        {
+            //arrange
+            string expected = "095-666-2222";
+
+            //act
+            Service.ChangeUsersPersonalInformation("naz999@gmail.com", "PhOne", expected);
+
+            var actual = Service.LoggedUsers.GetUserList().Where(x => x.Email == "naz999@gmail.com")
+                                .Select(x => x.PhoneNumber).AsEnumerable().First();
+
+            //assert
+            Assert.AreEqual(expected, actual);
+        }
+    }
+
+    public class RegisteredUserTests : Class_Testing_User
+    {
+        private readonly RegUser user1 = new RegUser(89998, "John", "Wick", "Stockholm,Sweden", "wick1990j@gmail.com"
+            , "JoW77!", "855-437-3045");
+
+        public override BaseService CreateService()
+            => new RegUserService(this.user1);
+    }
+
+    public class GuestTests : Class_Testing_User
+    {
+        public override BaseService CreateService()
+            => new GuestService(new Guest(new Random().Next(11111, 99999)));
+
+    }
 
 }
