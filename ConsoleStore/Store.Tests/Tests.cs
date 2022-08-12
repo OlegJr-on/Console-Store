@@ -100,6 +100,127 @@ namespace Store.Tests
         }
     }
 
+    [TestFixture]
+    abstract public class Class_Testing_User
+    {
+        public abstract BaseService CreateService();
+
+        protected BaseService Service;
+
+        [SetUp]
+        public void SetUp()
+        {
+            Service = CreateService();
+        }
+
+        [Test]
+        public void CheckGetPersonalInfo_User_ShouldReturnInfoUserInStr()
+        {
+            //arrange
+            string actual = Service.User.GetPersonalInfo();
+            string expected = "\n\t\tInfo about user(wick1990j@gmail.com):" +
+                    "\n\tFull name: John Wick\n\tLocation: Stockholm,Sweden\n\t" +
+                        $"Personal info:    phone:855-437-3045 | password: JoW77!";
+            //act
+            if (Service is GuestService)
+            {
+                expected = "Sorry, you cannot view this information because you are not registered :(";
+            }
+
+            //assert
+            Assert.AreEqual(expected, actual);
+        }
+
+        [Test]
+        public void CheckChangePersonalInfo_User_ChangedUserInfo()
+        {
+            //arrange
+            var ChangedName = "John";
+
+            string actual = Service.User.ChangePersonalInfo("Name", ChangedName);
+            string expected = " - Value was changed correctly - ";
+
+            //act
+            if (Service is GuestService)
+            {
+                expected = "Sorry, but you cannot edit the information because you are not registered :(";
+            }
+
+            //assert
+            Assert.AreEqual(expected, actual);
+
+            if (!(Service is GuestService))
+                Assert.AreEqual(ChangedName, Service.User.Name, message: "The value hasn`t changed");
+        }
+
+        [TestCase("Iphone", 5)]
+        public void CheckCreateNewOrder_User_AddedOrder(string title, int quantity)
+        {
+            if (this.Service.User.GetAccess().CreatingNewOrder())
+            {
+                //arrange
+                var order = new Order(new ProductRepository().SearchProduct(title), quantity);
+
+                //act
+                Service.CreateNewOrder(order);
+
+                //assert
+                Assert.That(Service.User.OrderList.Select(x => x.Article == order.Article).AsEnumerable().First(), Is.True);
+            }
+        }
+
+        [Test]
+        public void CheckSetStatusGoods_User_SettedStatusOnOrder()
+        {
+            if (Service.User.GetAccess().SetStatusOrder())
+            {
+                //arrange
+                var order = new Order(product: new ProductRepository().SearchProduct("playstation"),
+                                      quantity: 4);
+
+                //act
+                Service.CreateNewOrder(order);
+
+                Service.SetStatusGoods(order.Article, "2");
+                //assert
+                Assert.That(Service.User.OrderList[0].Status, Is.EqualTo(StatusOrder.Received));
+            }
+        }
+
+        [Test]
+        public void CheckReviewOrders_User_OrderListInStr()
+        {
+            //arrange
+            CheckSetStatusGoods_User_SettedStatusOnOrder();
+            var actual = Service.ReviewOrders();
+            var expected = new StringBuilder(new string('-', 120));
+            double resultprice = 0;
+
+            if (Service.User.GetAccess().ReviewHistoryOrders())
+            {
+                //act
+                Service.User.OrderList.AsParallel().ForAll(x =>
+                {
+                    if (x.Status == StatusOrder.New)
+                        resultprice += x.ToPay;
+                    expected.Append("\n" + x.ToString() + "\n" + new string('-', 120));
+                }
+                );
+
+                expected.Append($"\n\nAmount to be paid: {resultprice} UAH\n");
+
+                //assert
+                Assert.AreEqual(expected.ToString(), actual);
+            }
+            else
+            {
+                expected.Clear().Append("Sorry, you are not registered :(");
+                Assert.AreEqual(expected.ToString(), actual);
+            }
+
+        }
+    }
+
 
 
 }
